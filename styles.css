@@ -1,3 +1,5 @@
+
+/* Set the general style of the page */
 body {
     margin: 0;
     padding: 0;
@@ -7,22 +9,27 @@ body {
     color: #333333;
 }
 
+/* Set the background colour and margin */
 .navigation {
     background-color: #333333;
     margin-bottom: 30px;
 }
+
+/* Set colour, font size and display of header */
 .navigation a {
     color: #fefefe;
     font-size: 120%;
     margin: 10px;
     display: inline-block;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
+/* Set the bottom border for curent header, hovered link and keyboard focus link*/
 .navigation a.active, .navigation a:hover, .navigation a:focus {
     border-bottom: 3px solid #ff0000;
 }
 
+/* Set no margin and padding between the title and location text */
 .heading, .subheading {
     margin-bottom: 0;
     margin-top: 0;
@@ -30,6 +37,7 @@ body {
     padding-top: 0;
 }
 
+/* Position the items in the page layout */
 .items {
     margin-top: 20px;
     width: 800px;
@@ -38,11 +46,13 @@ body {
     flex-direction:row;
 }
 
+/* Set margins between image and its title */
 .item {
     margin: 5px;
     margin-bottom: 27px;
 }
 
+/* Set the size of images */
 .item-image img {
     width: 250px;
 }
@@ -52,40 +62,49 @@ body {
     margin-bottom: 10px;
 }
 
+/* Set the color and an underline on item links */
 .item-title a {
     text-decoration: none;
     font-weight: bold;
     color: #333333;
 }
 
+/*Set the underline for hovered or key focused item */
 .item-title a:hover, .item-title a:focus {
     text-decoration: underline;
 }
 
+/* Set the main area width */
 .main-section {
     width: 800px;
 }
 
+/* Set the news area and position it */
 .news {
     width: 200px;
     float: right;
     clear: none; 
 }
+
+/* Set the margin and bold text for date text */
 .entry-date {
     margin: 0;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
+/* Set no margin between the news title nad date text */
 .news-item h3 {
     margin: 0;
 }
 
+/* Set a space between the news items*/
 .news-item {
     margin: 0px;
     margin-bottom: 15px;
 }
 
+/* Set the footer position and font-size */
 .footer {
     position:absolute; left:24px; top:980px;
     font-size: 12px;
