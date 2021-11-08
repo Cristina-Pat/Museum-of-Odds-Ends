@@ -9,13 +9,13 @@ body {
     color: #333333;
 }
 
-/* Set the background colour and margin */
+/* Set the navigation background colour and margin */
 .navigation {
     background-color: #333333;
     margin-bottom: 30px;
 }
 
-/* Set colour, font size and display of header */
+/* Set navigation colour, font size and display */
 .navigation a {
     color: #fefefe;
     font-size: 120%;
@@ -24,12 +24,12 @@ body {
     text-decoration: none; 
 }
 
-/* Set the bottom border for curent header, hovered link and keyboard focus link*/
+/* Set the bottom border for curent header link, hovered link and keyboard focus link*/
 .navigation a.active, .navigation a:hover, .navigation a:focus {
     border-bottom: 3px solid #ff0000;
 }
 
-/* Set no margin and padding between the title and location text */
+/* Remove space between the title and location text */
 .heading, .subheading {
     margin-bottom: 0;
     margin-top: 0;
@@ -37,7 +37,7 @@ body {
     padding-top: 0;
 }
 
-/* Position the items in the page layout */
+/* Position the items in the main area layout */
 .items {
     margin-top: 20px;
     width: 800px;
@@ -46,7 +46,7 @@ body {
     flex-direction:row;
 }
 
-/* Set margins between image and its title */
+/* Set margins between a image and its title */
 .item {
     margin: 5px;
     margin-bottom: 27px;
@@ -62,14 +62,14 @@ body {
     margin-bottom: 10px;
 }
 
-/* Set the color and an underline on item links */
+/* Set the colour and remove the underline on item links */
 .item-title a {
     text-decoration: none;
     font-weight: bold;
     color: #333333;
 }
 
-/*Set the underline for hovered or key focused item */
+/* Set the underline for hovered or key focused item */
 .item-title a:hover, .item-title a:focus {
     text-decoration: underline;
 }
@@ -93,7 +93,7 @@ body {
     font-weight: bold;
 }
 
-/* Set no margin between the news title nad date text */
+/* Remove space between the news title and date text */
 .news-item h3 {
     margin: 0;
 }
